@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Red Hat, Inc. and/or its affiliates.
+ * Copyright 2023 Red Hat, Inc. and/or its affiliates.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,11 +18,11 @@ package dto;
 public class Book {
 
     private Integer year;
-    private String author;
+    private Author author;
     private String title;
     private int pages;
 
-    public Book(Integer year, String author, String title, int pages) {
+    public Book(Integer year, Author author, String title, int pages) {
         this.year = year;
         this.author = author;
         this.title = title;
@@ -37,11 +37,11 @@ public class Book {
         this.year = year;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(Author author) {
         this.author = author;
     }
 

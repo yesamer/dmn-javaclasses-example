@@ -13,7 +13,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package dto;
 
-public class Activator {
-    
+import java.util.List;
+
+public class Author {
+
+    private Integer age;
+    private List<Book> books;
+    private String name;
+
+    public Author(Integer age, List<Book> books, String name) {
+        this.age = age;
+        this.books = books;
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public List<Book> getBooks() {
+        return books;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+
 }
