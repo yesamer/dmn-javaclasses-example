@@ -41,6 +41,4 @@ public class Author {
         return name;
     }
 
-
-
 }
