@@ -5,11 +5,12 @@ This project demonstrates how to import Java Classes as DMN Type in your DMN fil
 For a comprehensive description, please refer to this blog post: https://blog.kie.org/2022/05/dmn-types-from-java-classes.html
 
 ##Required tools
-- VSCode;
-- KIE Kogito Bundle or KIE Business Automation Bundle or DMN Editor plugin (0.30.0+);
-- Language Support for Java(TM) by Red Hat (1.19.0+);
+- VSCode 1.66+;
+- [KIE Kogito Bundle](https://marketplace.visualstudio.com/items?itemName=kie-group.vscode-extension-kogito-bundle) or [KIE Business Automation Bundle](https://marketplace.visualstudio.com/items?itemName=kie-group.vscode-extension-kie-ba-bundle) or [DMN Editor plugin](https://marketplace.visualstudio.com/items?itemName=kie-group.dmn-vscode-extension) (0.30.0+);
+- [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) (1.19.0+);
 - The Activator, a Java class file (Activator.java) required to activate the functionality. Please use that exact name for the Activator.
 - Your domain’s Java Beans;
 
 ## Updates
+06-22-2023: Updated with Kogito 1.40.0.Final version
 05-31-2023: `@KieActivator` annotation is no longer required. Please make sure your Activator file name is exactely "Activator.java"
