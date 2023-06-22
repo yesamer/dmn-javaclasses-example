@@ -12,5 +12,5 @@ For a comprehensive description, please refer to this blog post: https://blog.ki
 - Your domain’s Java Beans;
 
 ## Updates
-06-22-2023: Updated with Kogito 1.40.0.Final version
-05-31-2023: `@KieActivator` annotation is no longer required. Please make sure your Activator file name is exactely "Activator.java"
+- 06-22-2023: Updated with Kogito 1.40.0.Final version
+- 05-31-2023: `@KieActivator` annotation is no longer required. Please make sure your Activator file name is exactely "Activator.java"
