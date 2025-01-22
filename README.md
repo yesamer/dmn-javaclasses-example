@@ -12,7 +12,7 @@ For a comprehensive description, please refer to this blog post: https://blog.ki
 - Your domain’s Java Beans;
 
 ## Updates
-- 01-24-2025: Updated to Apache KIE 10.0.0
+- 01-23-2025: Updated to Apache KIE 10.0.0
 - 12-06-2024: README updated.
 - 06-22-2023: Updated to Kogito 1.40.0.Final version
 - 05-31-2023: `@KieActivator` annotation is no longer required. Please make sure your Activator file name is exactely "Activator.java"
