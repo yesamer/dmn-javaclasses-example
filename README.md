@@ -4,7 +4,7 @@
 This project demonstrates how to import Java Classes as DMN Type in your DMN files.
 For a comprehensive description, please refer to this blog post: https://blog.kie.org/2022/05/dmn-types-from-java-classes.html
 
-##Required tools
+## Required tools
 - Latest VSCode;
 - [Apache KIE™ Kogito Bundle](https://marketplace.visualstudio.com/items?itemName=kie-group.vscode-extension-kogito-bundle) or [Apache KIE™ Kogito Bundle](https://marketplace.visualstudio.com/items?itemName=kie-group.vscode-extension-kie-ba-bundle) or [Apache KIE™ DMN Editor](https://marketplace.visualstudio.com/items?itemName=kie-group.dmn-vscode-extension) version 10.2.0
 - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) (1.54.0+);
